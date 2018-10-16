@@ -11,7 +11,7 @@ This system will answer basicly to three questions:
 - Who are the most popular 3 article authors of all time?
 - On witch day did 1% of requests lead to errors?
 
-### Basic setup
+## Basic setup
 
 This project runs in a virtual machine created using Vagrant. So, there are a few steps to follow:
 
@@ -25,7 +25,7 @@ These files are necessary to configure the virtual machine with all necessary to
 - Download this project [Log Analysis](https://github.com/victorldavila/log-analysis).
 - Put all the files inside the Vagrant shared directory.
 
-#### Execute project
+## Execute project
 
 These are the steps to you follow up and execute the project:
 
@@ -35,7 +35,7 @@ These are the steps to you follow up and execute the project:
 - To import the .sql file execute the command `psql -d news -f newsdata.sql` inside the directory where the file is.
 - After that just run `python LogProject.py`.
 
-##### Expected output
+## Expected output
 
 ```
 The 3 most popular articles of all time are:
