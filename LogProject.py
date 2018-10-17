@@ -3,7 +3,7 @@
 import psycopg2
 
 DB = "news"
-QUERY_AUTHOR = """select title,COUNT(*) AS views 
+QUERY_ARTICLES = """select title,COUNT(*) AS views 
 from articles 
 JOIN log 
 ON log.path LIKE concat('/article/%', articles.slug) 
@@ -11,7 +11,7 @@ GROUP BY articles.title
 ORDER BY views DESC 
 LIMIT 3;"""
 
-QUERY_ARTICLES = """select authors.name,COUNT(*) AS views 
+QUERY_AUTHORS = """select authors.name,COUNT(*) AS views 
 from authors 
 JOIN articles 
 ON authors.id = articles.author 
