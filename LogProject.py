@@ -11,7 +11,7 @@ GROUP BY articles.title
 ORDER BY views DESC 
 LIMIT 3;"""
 
-QUERY_AUTHORS = """select authors.name,COUNT(*) AS views 
+QUERY_AUTHOR = """select authors.name,COUNT(*) AS views 
 from authors 
 JOIN articles 
 ON authors.id = articles.author 
