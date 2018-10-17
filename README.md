@@ -40,17 +40,18 @@ These are the steps to you follow up and execute the project:
 ```
 The 3 most popular articles of all time are:
 
-Ursula La Multa ------ 507594
-Rudolf von Treppenwitz ------ 423457
-Anonymous Contributor ------ 170098
-
-The 3 most popular article authors of all time are:
-
 Candidate is jerk, alleges rival ------ 338647
 Bears love berries, alleges bear ------ 253801
 Bad things gone, say good people ------ 170098
 
+The 3 most popular article authors of all time are:
+
+Ursula La Multa ------ 507594
+Rudolf von Treppenwitz ------ 423457
+Anonymous Contributor ------ 170098
+
 Days with more than 1% of request that lead to an error:
 
 2016-07-17 00:00:00+00:00 ------ 0.023
+
 ```
