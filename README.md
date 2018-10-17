@@ -9,7 +9,7 @@ This system will answer basicly to three questions:
 
 - What are the most popular 3 articles of all time?
 - Who are the most popular 3 article authors of all time?
-- On witch day did 1% of requests lead to errors?
+- On what days did 1% or more of requests lead to errors?
 
 ## Basic setup
 
